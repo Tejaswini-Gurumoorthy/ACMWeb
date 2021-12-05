@@ -1,0 +1,230 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body,html {
+  padding: 0%;
+  box-sizing: border-box;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  scroll-behavior: smooth;
+}
+.container .photo {
+  width: 100%;
+  /* background-color: aliceblue; */
+  display: flex;
+  justify-content: center;
+  
+  /* height: 100%; */
+}
+ 
+img {
+  border-radius: 50%;
+}
+.container {
+  background-color:black;
+  padding: auto;
+  height: 100%;
+  
+}
+.line{
+  width: 2px;
+  background-color: turquoise;
+  height: 200px;
+  margin: auto;
+  margin-left: px;
+  }
+
+.description-container{
+  
+  /* background-color: darkgrey; */
+  display: flex;
+
+  width: 50%;
+  margin: 8rem auto;
+
+
+
+}
+.description-container .about{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: turquoise;
+  line-height: 2rem;
+  /* background-color: tomato; */
+  
+}
+.description-container .skills{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: turquoise;
+  line-height: 2rem;
+
+  /* background-color: yellow; */
+}
+
+.description-container .about h2{
+  color: white;
+}
+.description-container .skills h2{
+  color: white;
+}
+header{
+  background-color: black;
+  height: 500px;
+}
+nav .navbar{
+  margin-top: 1rem;
+  /* background-color: blueviolet; */
+}
+nav .navbar a{
+  color: white;
+  text-decoration: none;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-right: 2rem;
+  text-transform: uppercase
+
+}
+nav .navbar a:hover{
+  color: turquoise;
+  font-size: 20px;
+  ;
+}
+
+
+nav button{
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 0.8rem 3rem;
+  background-color: turquoise;
+  font-weight: 400;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+nav button:hover{
+  background-color: transparent;
+  color: turquoise;
+  border-color: turquoise;
+}
+.container nav{
+  /* background-color: blueviolet; */
+  display: flex;
+  justify-content: right;
+  padding-right: 10rem;
+  /* margin-top: 2rem; */
+}
+.contact{
+  width: 50%;
+  background-color: rgb(30, 30, 34);
+  margin: 0 auto;
+}
+.contact .contact-box{
+  /* background-color: thistle; */
+  width: 50%;
+  padding:0;
+  margin: auto;
+}
+.contact .contact-me{
+  color: aliceblue;
+  /* padding-left: 25rem; */
+  /* background-color: wheat; */
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+
+}
+.contact .contact-me span{
+  color: turquoise;
+}
+
+.contact .user-details{
+  /* background-color: chocolate; */
+  display: flex;
+  flex-direction: column;
+}
+.contact .user-details input{
+  width: 50%;
+  /* margin-left: 13rem; */
+  width: 100%;
+  margin-bottom: 2rem;
+  height: 3rem;
+  background-color:black;
+  border: 0;
+  color:white;
+}
+.contact .msg{
+  /* background-color: cornsilk; */
+  /* padding-left:13rem; */
+  width: 100%;
+  
+}
+.contact .msg textarea{
+  background-color: black;
+  border: 0;
+  
+}
+.contact .submit button{
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 0.8rem 3rem;
+  background-color: turquoise;
+  font-weight: 400;
+  border: 2px solid transparent;
+  cursor: pointer;
+  /* margin-left: 13rem; */
+
+  margin-top: 1rem;
+}
+.submit button:hover{
+  background-color: transparent;
+  color: turquoise;
+  border-color: turquoise;
+}
+.container .blog-container{
+  /* background-color: burlywood; */
+  display: grid;
+  padding: 100px 100px;
+  height: 100%;
+  gap: 3rem;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.container .blog-container div{
+  background-color: rgb(30, 30, 34);
+  border: turquoise 1px solid;
+  color:white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  padding-left: 2rem;
+  padding-top: 2rem;
+
+}
+.container .blog-container div:hover{
+  background-color:rgb(49, 49, 56);
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.container .blog-container .box1{
+  background-color: rgb(30, 30, 34);
+  
+  
+}
+.container .blog-container .box2{
+  grid-column:2/-1 ;
+
+}
+.container .blog-container .box3{
+  grid-column: 1/3;
+}
+input[type="text"]
+{
+    font-size:24px;
+}
+textarea{
+  font-size:24px;
+  color: white ;
+}
